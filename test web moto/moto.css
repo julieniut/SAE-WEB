@@ -1,0 +1,141 @@
+body,hmtl,h1{
+    margin 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.fond {background-color: lightblue;
+       background: url(image/L.jpg) no-repeat center center  ;
+       background-size: cover;
+      
+}
+
+
+.first{ 
+    width : 82%;
+    margin : 0px auto;
+     } 
+
+
+.bando header{
+    background: url(image/moto.jpg ) no-repeat center center;
+    background-size: cover;
+    color: white;
+    width: 94%;
+    height: 100%;
+   
+}
+
+.wrapper{
+    display: table;
+    width: 100%;
+    height: 100%;
+    
+}
+.content{
+    display: table-cell;
+    vertical-align: middle;
+    text-shadow: 1px 1px 10px black;
+}
+
+h1{ 
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+
+p { 
+    width:72%;
+    margin: 10px 10px 10px 10px;
+    padding: 1%;
+    text-align: justify;
+    border: solid currentColor 2px;
+    background-color: firebrick;
+
+}
+aside {
+    float: right;
+    width :25%;
+    box-sizing : border-box;
+    padding : 1%;
+    text-align: center;
+   }
+
+
+
+aside>article{
+    background-color: firebrick;
+    margin: 7% 0px 5px 5px;
+    padding: 1%;
+    text-align: justify;
+    border: solid currentColor 2px; }
+
+header {
+    font-size:large;
+    text-align: center;
+    padding : 2%;
+    margin: 10px;   
+    font-family: 'Abril Fatface', cursive;
+    
+}
+
+.shrek {background-color: blueviolet;
+        width:100%;
+        margin: 10px 10px 10px 10px;
+        padding: 2%;
+        text-align: justify;
+        border: solid currentColor 2px;
+        
+}
+.shrek h2 { font-weight: 500;
+    font-size:large;
+    text-align: center;
+    text-decoration: underline;
+    padding : 0%;
+    margin: 1%;
+    background-color: blueviolet;
+    width: 93%;    
+    font-family: 'Abril Fatface', cursive;}
+
+div>img {
+  margin-top: 2%;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#levelup { position: fixed;
+           width: 5%;
+           bottom: 30px;
+           right : 30px;
+}
+#discord { width: 5%; 
+           margin: -1%;
+           padding:10px 10px 0px 10px;
+}
+#uha {width: 20%;
+      margin: -2%;
+      padding:10px 10px 0px 10px;
+}
+
+#gmail{width: 5%;
+       padding:10px 10px 0px 10px;
+}
+
+a {color: transparent}
+
+footer{ 
+    font-family: 'Abril Fatface', cursive;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    
+    }
+
+footer> p{background-color: blue}
+
+header {
+   background-image : linear-gradient(135deg, #87e0fd 2%, #53cbf1 40%, #05abe0 100%);
+  
+}
