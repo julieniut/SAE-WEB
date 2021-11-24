@@ -23,6 +23,7 @@ body,hmtl,h1{
     color: white;
     width: 94%;
     height: 100%;
+    
    
 }
 
@@ -51,14 +52,14 @@ p {
     padding: 1%;
     text-align: justify;
     border: solid currentColor 2px;
-    background-color: firebrick;
+    background-image : linear-gradient(to right, #CB4335 2%, #B22222 30%, #8B0000 85%);
 
 }
 aside {
     float: right;
     width :25%;
     box-sizing : border-box;
-    padding : 1%;
+    padding : 2%;
     text-align: center;
    }
 
@@ -69,7 +70,8 @@ aside>article{
     margin: 7% 0px 5px 5px;
     padding: 1%;
     text-align: justify;
-    border: solid currentColor 2px; }
+    border: solid currentColor 2px;
+    background-image : linear-gradient(to right, #CB4335 2%, #B22222 30%, #8B0000 85%);}
 
 header {
     font-size:large;
@@ -77,24 +79,33 @@ header {
     padding : 2%;
     margin: 10px;   
     font-family: 'Abril Fatface', cursive;
-    
+    background-image : linear-gradient(to right, #CB4335 2%, #B22222 30%, #8B0000 85%);
 }
+.flex{display: flex}
 
-.shrek {background-color: blueviolet;
+.shrek {background-image : linear-gradient(#D3D3D3 2%, #C0C0C0 30%, #808080 85%);
         width:100%;
         margin: 10px 10px 10px 10px;
         padding: 2%;
         text-align: justify;
         border: solid currentColor 2px;
         
+    
 }
+.shrek2{background-image : linear-gradient(#808080 2%, #C0C0C0 43%,  #D3D3D3 85%);
+        width:100%;
+        margin: 10px 10px 10px 10px;
+        padding: 2%;
+        text-align: justify;
+        border: solid currentColor 2px;
+}
+
 .shrek h2 { font-weight: 500;
     font-size:large;
     text-align: center;
     text-decoration: underline;
     padding : 0%;
     margin: 1%;
-    background-color: blueviolet;
     width: 93%;    
     font-family: 'Abril Fatface', cursive;}
 
@@ -133,9 +144,6 @@ footer{
     
     }
 
-footer> p{background-color: blue}
+footer p {background-image : linear-gradient( #CB4335 1%, #B22222 60%, #8B0000 100%);}
 
-header {
-   background-image : linear-gradient(135deg, #87e0fd 2%, #53cbf1 40%, #05abe0 100%);
   
-}
