@@ -5,7 +5,7 @@ body,hmtl,h1{
     
 }
 .fond {background-color: lightblue;
-       background: url(image/L.jpg) no-repeat center center  ;
+       background: url(image/fond.png) no-repeat center center  ;
        background-size: cover;
       
 }
@@ -66,12 +66,12 @@ aside {
 
 
 aside>article{
-    background-color: firebrick;
+    background-color: #8B0000;
     margin: 7% 0px 5px 5px;
     padding: 1%;
     text-align: justify;
     border: solid currentColor 2px;
-    background-image : linear-gradient(to right, #CB4335 2%, #B22222 30%, #8B0000 85%);}
+    }
 
 header {
     font-size:large;
@@ -139,11 +139,22 @@ a {color: transparent}
 footer{ 
     font-family: 'Abril Fatface', cursive;
     bottom:0;
-    width:100%;
     padding-top:50px;
     
     }
 
 footer p {background-image : linear-gradient( #CB4335 1%, #B22222 60%, #8B0000 100%);}
 
-  
+@media screen and (min-width: 0px) and (max-width: 900px){
+    #levelup{display:none;}
+    #v{display: none}
+    aside{display: none}
+    .flex{display: block;}
+    #pp{width: 102%}
+    .bando header{width: 100%}
+    #uha {width: 30%}
+    #gmail {width: 10%}
+    #discord {width: 10%}
+    header{width: 100%}
+    footer{width: 100%}
+}
