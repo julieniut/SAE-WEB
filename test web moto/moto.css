@@ -1,149 +1,220 @@
-body,hmtl,h1{
+/* Mise en PAGE */
+body,
+hmtl,
+h1 {
     margin 0px;
     padding: 0px;
     font-family: 'Oswald', sans-serif;
-    
-}
-.fond {background-color: lightblue;
-       background: url(image/L.jpg) no-repeat center center  ;
-       background-size: cover;
-      
+
 }
 
+.fond {
+    background-color: lightblue;
+    background: url(image/fond.png) no-repeat center center;
+    background-size: cover;
 
-.first{ 
-    width : 82%;
-    margin : 0px auto;
-     } 
+}
 
 
-.bando header{
+.first {
+    width: 82%;
+    margin: 0px auto;
+}
+
+.flex {
+    display: flex
+}
+
+/* bando */
+.bando header {
     background: url(image/moto.jpg ) no-repeat center center;
     background-size: cover;
     color: white;
     width: 94%;
     height: 100%;
-    
-   
+
+
 }
 
-.wrapper{
+.wrapper {
     display: table;
     width: 100%;
     height: 100%;
-    
+
 }
-.content{
+
+.content {
     display: table-cell;
     vertical-align: middle;
     text-shadow: 1px 1px 10px black;
 }
 
-h1{ 
+h1 {
     font-size: 40px;
     font-family: 'Abril Fatface', cursive;
 }
 
 
-
-p { 
-    width:72%;
+/* Text */
+p {
+    width: 72%;
     margin: 10px 10px 10px 10px;
     padding: 1%;
     text-align: justify;
     border: solid currentColor 2px;
-    background-image : linear-gradient(to right, #CB4335 2%, #B22222 30%, #8B0000 85%);
+    background-image: linear-gradient(to right, #CB4335 2%, #B22222 30%, #8B0000 85%);
 
 }
+
 aside {
     float: right;
-    width :25%;
-    box-sizing : border-box;
-    padding : 2%;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 2%;
     text-align: center;
-   }
+}
 
 
 
-aside>article{
-    background-color: firebrick;
+aside > article {
+    background-color: #8B0000;
     margin: 7% 0px 5px 5px;
     padding: 1%;
     text-align: justify;
     border: solid currentColor 2px;
-    background-image : linear-gradient(to right, #CB4335 2%, #B22222 30%, #8B0000 85%);}
+}
 
 header {
-    font-size:large;
+    font-size: large;
     text-align: center;
-    padding : 2%;
-    margin: 10px;   
+    padding: 2%;
+    margin: 10px;
     font-family: 'Abril Fatface', cursive;
-    background-image : linear-gradient(to right, #CB4335 2%, #B22222 30%, #8B0000 85%);
-}
-.flex{display: flex}
-
-.shrek {background-image : linear-gradient(#D3D3D3 2%, #C0C0C0 30%, #808080 85%);
-        width:100%;
-        margin: 10px 10px 10px 10px;
-        padding: 2%;
-        text-align: justify;
-        border: solid currentColor 2px;
-        
-    
-}
-.shrek2{background-image : linear-gradient(#808080 2%, #C0C0C0 43%,  #D3D3D3 85%);
-        width:100%;
-        margin: 10px 10px 10px 10px;
-        padding: 2%;
-        text-align: justify;
-        border: solid currentColor 2px;
+    background-image: linear-gradient(to right, #CB4335 2%, #B22222 30%, #8B0000 85%);
 }
 
-.shrek h2 { font-weight: 500;
-    font-size:large;
+
+
+.shrek {
+    background-image: linear-gradient(#D3D3D3 2%, #C0C0C0 30%, #808080 85%);
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+    padding: 2%;
+    text-align: justify;
+    border: solid currentColor 2px;
+
+
+}
+
+.shrek2 {
+    background-image: linear-gradient(#808080 2%, #C0C0C0 43%, #D3D3D3 85%);
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+    padding: 2%;
+    text-align: justify;
+    border: solid currentColor 2px;
+}
+
+.shrek h2 {
+    font-weight: 500;
+    font-size: large;
     text-align: center;
     text-decoration: underline;
-    padding : 0%;
+    padding: 0%;
     margin: 1%;
-    width: 93%;    
-    font-family: 'Abril Fatface', cursive;}
-
-div>img {
-  margin-top: 2%;  
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#levelup { position: fixed;
-           width: 5%;
-           bottom: 30px;
-           right : 30px;
-}
-#discord { width: 5%; 
-           margin: -1%;
-           padding:10px 10px 0px 10px;
-}
-#uha {width: 20%;
-      margin: -2%;
-      padding:10px 10px 0px 10px;
-}
-
-#gmail{width: 5%;
-       padding:10px 10px 0px 10px;
-}
-
-a {color: transparent}
-
-footer{ 
+    width: 93%;
     font-family: 'Abril Fatface', cursive;
-    bottom:0;
-    width:100%;
-    padding-top:50px;
-    
+}
+/* image */
+div > img {
+    margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#levelup {
+    position: fixed;
+    width: 5%;
+    bottom: 30px;
+    right: 30px;
+}
+
+#discord {
+    width: 5%;
+    margin: -1%;
+    padding: 10px 10px 0px 10px;
+}
+
+#uha {
+    width: 20%;
+    margin: -2%;
+    padding: 10px 10px 0px 10px;
+}
+
+#gmail {
+    width: 5%;
+    padding: 10px 10px 0px 10px;
+}
+/* lien */
+a {
+    color: transparent
+}
+/* Footer*/
+footer {
+    font-family: 'Abril Fatface', cursive;
+    bottom: 0;
+    padding-top: 50px;
+
+}
+
+footer p {
+    background-image: linear-gradient(#CB4335 1%, #B22222 60%, #8B0000 100%);
+}
+
+/* Media queries */
+@media screen and (min-width: 0px) and (max-width: 900px) {
+    #levelup {
+        display: none;
     }
 
-footer p {background-image : linear-gradient( #CB4335 1%, #B22222 60%, #8B0000 100%);}
+    #v {
+        display: none
+    }
 
-  
+    aside {
+        display: none
+    }
+
+    .flex {
+        display: block;
+    }
+
+    #pp {
+        width: 102%
+    }
+
+    .bando header {
+        width: 100%
+    }
+
+    #uha {
+        width: 30%
+    }
+
+    #gmail {
+        width: 10%
+    }
+
+    #discord {
+        width: 10%
+    }
+
+    header {
+        width: 100%
+    }
+
+    footer {
+        width: 100%
+    }
+}
